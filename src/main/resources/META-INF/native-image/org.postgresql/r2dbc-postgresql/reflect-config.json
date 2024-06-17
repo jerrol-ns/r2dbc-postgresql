@@ -146,5 +146,12 @@
   {
     "name": "java.net.InetSocketAddress",
     "unsafeAllocated": true
+  },
+  {
+    "name": "io.r2dbc.postgresql.client.ReactorNettyClient$EnsureSubscribersCompleteChannelHandler",
+    "queriedMethods": [
+      { "name": "channelUnregistered", "parameterTypes": [ "io.netty.channel.ChannelHandlerContext" ] },
+      { "name": "channelInactive", "parameterTypes": [ "io.netty.channel.ChannelHandlerContext" ] }
+    ]
   }
 ]
